@@ -18,6 +18,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/devops', function () {
+    return view('devops');
+});
+
+Route::get('/innovation', function () {
+    return view('innovation');
+});
+
+Route::get('/usability', function () {
+    return view('usability');
+});
+
+Route::get('/assessment', function () {
+    return view('assessment');
+});
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

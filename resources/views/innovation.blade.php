@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>Innovation</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
@@ -520,6 +520,10 @@
             padding: 1.5rem
         }
 
+        .p-12 {
+            padding: 3rem
+        }
+
         .px-6 {
             padding-left: 1.5rem;
             padding-right: 1.5rem
@@ -781,7 +785,8 @@
     </style>
 </head>
 <body class="antialiased">
-<div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
+<div
+    class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
     @if (Route::has('login'))
         <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
             @auth
@@ -802,95 +807,21 @@
 
     <div class="max-w-7xl mx-auto p-6 lg:p-8">
         <div class="flex justify-center">
-            <h1 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">IT Development Portfolio</h1>
+            <h1 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Innovation</h1>
         </div>
 
-        <div class="mt-16">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                <a href="https://laravel.com/docs"
-                   class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                    <div>
-                        <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">DevOps</h2>
+        <div>
+            <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
+                Assignment 1
+            </a>
 
-                        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                            Not so long ago, our lives as developers were rather easy: we built a piece of software, we
-                            handed it over the Operations department and if something broke, it was their problem. The
-                            Operations department also had it easy: you received a piece of software, installed it,
-                            crashed all your systems halfway through and then blamed the developers for it. After some
-                            40 years, we figured out that this system does not work. Nowadays almost every company works
-                            according to the principle of "You build it, you run it".
-                        </p>
-                    </div>
+            <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
+                Assignment 2
+            </a>
 
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
-                    </svg>
-                </a>
-
-                <a href="https://laracasts.com"
-                   class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                    <div>
-                        <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Usability</h2>
-
-                        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                            We already started working with Nielsen's Heuristics last quartile. We will also discuss a
-                            number of them this quartile and the focus is mainly on error messages and error handling.
-                            In my portfolio I will include visual proof and motivate the choices I have made with regard
-                            to usability in the screen.
-                        </p>
-                    </div>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
-                    </svg>
-                </a>
-
-                <a href="https://laravel-news.com"
-                   class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                    <div>
-                        <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Innovation</h2>
-
-                        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                            Innovation stands for renewal, learning to discover and apply new possibilities. In
-                            practice, innovation is one of the most important skills a software developer possesses. In
-                            practice, there is hardly anyone who knows all the possibilities of the technology and can
-                            apply them directly. Experience shows that once you are ready, the technology used is
-                            already very outdated and therefore has to learn to apply something new again.
-                        </p>
-                    </div>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
-                    </svg>
-                </a>
-
-                <a href="https://laracasts.com"
-                   class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                    <div>
-                        <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Project Assessment</h2>
-
-                        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                            During this quarter, I will work on my assigned project almost all of the time. In this
-                            project, I will develop new features or improve existing ones. It should be obvious that I
-                            need to design and then test whether my newly added or improved features actually work and
-                            solve the problem as was intended. In the project assessment exam I will show that I have
-                            indeed worked on the project and tested my solutions.
-                        </p>
-                    </div>
-
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                         class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"/>
-                    </svg>
-                </a>
-            </div>
+            <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
+                Assignment 3
+            </a>
         </div>
 
         <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
