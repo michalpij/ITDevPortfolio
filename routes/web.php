@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\StudentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +23,11 @@ Route::get('/devops', function () {
     return view('devops');
 });
 
+Route::get('/testing', function () {
+    abort(500);
+    return view('testing');
+});
+
 Route::get('/innovation', function () {
     return view('innovation');
 });
@@ -33,6 +39,9 @@ Route::get('/usability', function () {
 Route::get('/assessment', function () {
     return view('assessment');
 });
+
+Route::get('student/create',[StudentController::class,'create']);
+Route::post('student/store',[StudentController::class,'store'])->name('student.store');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -811,16 +811,16 @@
         </div>
 
         <div>
-            <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
-                Assignment 1
+            <a href="{{ route('register') }}" class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
+                Security
             </a>
 
             <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
-                Assignment 2
+                Testing
             </a>
 
             <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
-                Assignment 3
+                Challenges
             </a>
         </div>
 

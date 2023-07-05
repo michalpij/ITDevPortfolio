@@ -810,16 +810,16 @@
         </div>
 
         <div>
-            <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
-                Security
+            <a href="/testing" class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
+                Assignment 1
             </a>
 
             <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
-                Testing
+                Assignment 2
             </a>
 
             <a class="text-center mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed p-12">
-                Challenges
+                Assignment 3
             </a>
         </div>
 
